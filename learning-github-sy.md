@@ -11,7 +11,11 @@
 (2) 코드 표현을 위해서 "```"으로 코드 앞뒤를 감싸기 
      
 ```
-# 1. 
+1. github로 repository 만들기   
+{username}.github.io 로 repository name을 만들면, {username}.github.io 이 주소로 바로 연동이 가능해진다. 
+
+2. http://jekyllthemes.org/
+
 # 원도우10에서 제공하는 ubuntu에서 내 로컬에 다운 받아둔 지킬 테마 폴더 디렉토리로 이동 
 
 cd /mnt/c/Users/soyeo/Desktop/panthera-jekyll-master/panthera-jekyll-master
