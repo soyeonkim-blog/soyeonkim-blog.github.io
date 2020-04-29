@@ -6,8 +6,8 @@ defaults:
     values:
       layout: default
 
-title: Christian Ezeani
-subtitle: Full-Stack Developer
+title: Soyeon Kim
+subtitle: Data scientist
 
 # Side Menu Links
 menu:
@@ -34,11 +34,11 @@ social_icons:
     icon: fab fa-linkedin
 
   - name: github
-    link: https://github.com/christianezeani
+    link: soyeonkim-blog.github.io
     icon: fab fa-github-square
 
   - name: facebook
-    link: https://www.facebook.com/christian.ezeani.cyb
+    link: https://www.facebook.com/soyeon2019
     icon: fab fa-facebook-square
 
   - name: twitter
