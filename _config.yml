@@ -26,6 +26,10 @@ menu:
   - text: My Resume
     link: /resume
     icon: ""
+    
+  - text: Learning Github
+    link: /learning-github-sy
+    icon: ""
 
 # Socialmedia Icons
 social_icons:
