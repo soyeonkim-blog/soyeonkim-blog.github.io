@@ -3,11 +3,17 @@
 
 # Learnig Github
 
-(1) April 29, 2020   
+<April 29, 2020>  
+   
 처음 Github 홈페이지를 만들었는데 시간이 생각보다 오래걸렸다. 시간이 지나면 다시 만드는데 오래 걸릴 것 같으니, 메모 해두기로 하자.   
-줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다   
-테스트!   
+지금 작성하고 있는 마크다운 문법에 2가지:   
+(1) 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸 띄어쓰기   
+(2) 코드 표현을 위해서 '```' 으로 코드 앞뒤를 감싸기 
+     
 ```
+# 1. 
+# 원도우10에서 제공하는 ubuntu에서 내 로컬에 다운 받아둔 지킬 테마 폴더 디렉토리로 이동 
+
 cd /mnt/c/Users/soyeo/Desktop/panthera-jekyll-master/panthera-jekyll-master
 
 # https://gist.github.com/godori/355391c91d2f6725aee8f273f095e87c
