@@ -11,14 +11,19 @@
 (2) 코드 표현을 위해서 "```"으로 코드 앞뒤를 감싸기 
      
 ```
+
 1. github로 repository 만들기   
 {username}.github.io 로 repository name을 만들면, {username}.github.io 이 주소로 바로 연동이 가능해진다.   
+   
+   
    
    
 2. 홈페이지 테마는 http://jekyllthemes.org/ 에서 고른다. 나는 'panthera-jekyll' 테마를 골랐다.   
 git source code 다운   
    
 $git clone https://github.com/christianezeani/panthera-jekyll.git   
+   
+   
    
    
 3. 원도우10-ubuntu에서 내 로컬 폴더 디렉토리로 이동   
@@ -48,6 +53,8 @@ $git commit -m "initial commit"
 # create mode 100644 README.md
 
 #git push -u origin master
+
+
 
 
 4. local의 파일을 내 github repository에 push하는 경우, 서로 파일이 맞지 않아(?) 충돌로 인한 에러가 발생할 수 있다. 
