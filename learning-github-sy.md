@@ -12,28 +12,31 @@
      
 ```
 1. github로 repository 만들기   
-{username}.github.io 로 repository name을 만들면, {username}.github.io 이 주소로 바로 연동이 가능해진다. 
-
-2. http://jekyllthemes.org/
-
-# 원도우10에서 제공하는 ubuntu에서 내 로컬에 다운 받아둔 지킬 테마 폴더 디렉토리로 이동 
-
-cd /mnt/c/Users/soyeo/Desktop/panthera-jekyll-master/panthera-jekyll-master
-
-# https://gist.github.com/godori/355391c91d2f6725aee8f273f095e87c
-
-git --version
+{username}.github.io 로 repository name을 만들면, {username}.github.io 이 주소로 바로 연동이 가능해진다.   
+   
+   
+2. 홈페이지 테마는 http://jekyllthemes.org/ 에서 고른다. 나는 'panthera-jekyll' 테마를 골랐다.   
+git source code 다운   
+   
+$git clone https://github.com/christianezeani/panthera-jekyll.git   
+   
+   
+3. 원도우10-ubuntu에서 내 로컬 폴더 디렉토리로 이동   
+   
+$cd /mnt/c/Users/soyeo/Desktop/panthera-jekyll-master/panthera-jekyll-master   
+   
+git 설치 및 version 확인
+$git --version
 # git version 2.17.1
-
-git config --global user.name soyeonkim-blog
-git config --global user.email soyeon2019@gmail.com
-
-git init
+   
+$git config --global user.name soyeonkim-blog   
+$git config --global user.email soyeon2019@gmail.com
+   
+$git init   
 # Initialized empty Git repository in /mnt/c/Users/soyeo/Desktop/panthera-jekyll-master/panthera-jekyll-master/.git/
 
-git add . # 모든 파일을 add하겠다. committed 되었다고 뜬다. 
-
-git commit -m "initial commit"
+$git add . # 해당 디렉토리의 모든 파일을 add하는 코드. committed 되었다는 출력이 뜬다.   
+$git commit -m "initial commit"
 # [master (root-commit) c12c31b] initial commit
 #
 # 301 files changed, 75128 insertions(+)
@@ -46,9 +49,16 @@ git commit -m "initial commit"
 
 #git push -u origin master
 
-git remote add origin https://github.com/soyeonkim-blog/soyeonkim-blog.github.io.git
 
-git push -u origin +master # 강제 push 실제 에러가 발생하는 부분을 고칠수도 있지만 임시 방편으로 "+" 를 이용하여 해결이 가능합니다
+4. local의 파일을 내 github repository에 push하는 경우, 서로 파일이 맞지 않아(?) 충돌로 인한 에러가 발생할 수 있다. 
+
+$git remote add origin https://github.com/soyeonkim-blog/soyeonkim-blog.github.io.git
+# fatal error 발생!
+
+local파일을 강제로라도 repository에 push하고 싶은 경우, "git push -u origin +master"를 추가하여 임시로 해결할 수 있다.
+
+$git push -u origin +master
+
 #Username for 'https://github.com': soyeonkim-blog
 #Password for 'https://soyeonkim-blog@github.com':
 #Counting objects: 324, done.
@@ -60,4 +70,7 @@ git push -u origin +master # 강제 push 실제 에러가 발생하는 부분을
 #To https://github.com/soyeonkim-blog/soyeonkim-blog.github.io.git
 # + 48b8c88...c12c31b master -> master (forced update)
 #Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+web상에서 확인해보면, 폴더들과 파일들이 잘 upload되었음을 알 수 있다. 
+
 ```
