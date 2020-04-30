@@ -30,6 +30,10 @@ menu:
   - text: Learning Github
     link: /learning-github-sy
     icon: ""
+    
+  - text: Learning Python
+    link: /learning-python-sy
+    icon: ""
 
 # Socialmedia Icons
 social_icons:
